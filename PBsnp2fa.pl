@@ -126,6 +126,11 @@ for (my $i = 0; $i<scalar@sample_array; $i++) {
 #### SUBROUTINES ####
 
 # create hash of SNP data
+# uses fixed values for 
+# SNP quality, RMS quality
+# and read depth
+# TODO - make these user
+# settings
 ##########################
 sub makeSNParray {
 ##########################
